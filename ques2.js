@@ -17,6 +17,7 @@ function name() {
 
 name();
 var day = 'sunday';
+var txt = 2;
 /* It was having some problem hope you will fix that out for me
 I AM UNABLE TO GET INPUT FROM USER
 var txt;
@@ -32,10 +33,12 @@ switch (txt) {
         } else console.log("weekday");
         break;
     case 2:
-        for (i = 1; i <= 100; i++) {
+        for (i = 5; i <= 100; i += 5) {
             if (i % 5 === 0) {
                 console.log(i + "");
             }
         }
         break;
+    default:
+        console.log("wrong input");
 }
